@@ -1,0 +1,256 @@
+/*Start Global Rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     padding: 0px;
+     margin: 0px;
+}  
+body{
+    font-family: sans-serif;
+    height: 300vh;
+
+
+}   
+.container{
+    width: 100%;
+    padding: 21px 24px ;
+
+}
+.container nav{
+    width:100%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    
+
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    padding-bottom: 0px;
+}
+nav .logo i{
+    font-size: 28px;
+}
+nav .logo h1{
+    font-family: sans-serif;
+    font-size: 28px
+}
+
+ .content{
+    width: 100%;
+    height: calc(100vh - 45px);
+    background: linear-gradient(130deg, #c4e1f8, #eeb0bd);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 40px;
+}
+.content .main-text{
+    padding: 0px 0px 0px 40px;
+}
+nav ul li{
+    margin: 23px;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    line-height: 60px; 
+    padding-top: 0px;
+  
+}
+nav a {
+    color: black;
+    font-weight:600;
+    text-decoration: none;
+    transition: 0.9;
+}
+
+nav ul li a:hover,
+nav ul li .active a{
+    text-decoration:underline;
+    color: #79bccf;
+}
+nav span a{
+    color: #79bccf;
+}
+.content .main-text span{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+}
+.content .main-text h3{
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-size: 50px;
+    font-weight:normal;
+    margin: 20px 0px ;
+}
+.content .main-text h1{
+    font-size: 55px;
+    font-weight: 40px;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    color: #444;
+    margin: 30px  20px 0px -19px;
+    
+}
+.content .main-text p{
+    color:#7b7b7b;
+    letter-spacing: 1.8px;
+    margin-bottom: 32px;
+    line-height: 23px;
+    font-size: 15px;
+    margin: 16px -7px;
+}
+.content .div-img img{
+    display: flex;
+    position: relative;
+    width: 320px;
+    left: -19%;
+    top: 9%;
+    right: 0%;
+    margin: 0px;
+}
+.container .main-text .btn{
+    background:#fff ;
+    color:#79bccf;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .main-text .btn:hover{
+    color:#fff;
+    background-color: #79bccf;
+}
+
+.content .mini-img{
+    position:absolute ;
+    display: flex;
+    left: 54%;
+    bottom: -28px;
+    gap: 80px;
+    transform: translateX(-57%);
+    width: auto;
+
+}
+.container{
+    padding-bottom: 20px 0px 40px;
+
+}
+.container .card {
+    
+    border-radius: 16px;
+    padding-top: 30px; 
+    padding-bottom: 0px;
+    padding-left:79px ;
+    padding-right: 50px;
+
+    background-color: #e1ebeb;
+}
+
+.container .card {
+
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+    gap: 30px;
+    padding: 30px 30px;
+    
+}
+.container  .feet{
+    
+    display: flex;
+    border-radius:11px;
+    box-shadow: 5px 6px 7px 1px;
+    padding: 5px;
+    width: 80%;
+    height:auto;
+    flex-wrap:wrap;
+    align-items: center;
+    
+}
+.container .card i{
+    font-size: 33px;
+    color:#1c91b2;
+    align-items: center;
+    padding: 12px 114px;
+
+    text-align: center;
+
+}
+.container .card i:hover{
+    font-size: 40px;
+    cursor: pointer;
+}
+.container .card h2{
+    align-items: center;
+    padding: 0px 38px 30px ;
+    font-weight:bolder;
+}
+.container .card .feet p{
+    padding:5px 3px ;
+    flex-wrap: wrap;
+
+    
+}
+
+
+.portfolio {
+    padding-top: 60px;  
+    padding-bottom: 60px;
+    border-radius: 30px;
+    background-color:rgb(182, 180, 180);
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+
+
+}
+
+.portfolio .shop h3{
+    
+padding: 0px;
+font-size: 40px;
+font-weight: 600;
+color: darkviolet;
+text-align: center;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+.portfolio .shop p{
+    text-align: center;
+    font-size: 22px;
+    color:#444;
+    font-weight:300;
+    line-height: 1.8;
+}
+.shop .shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
+    grid-gap: 100px;
+    margin-top: 80px;
+    margin: 20px;
+}
+.shop .shop-content .good{
+    background-color: white;
+    border-radius: 0px;
+    padding: 0px 0px 0px;
+
+}
+.shop .shop-content img{
+    max-width: 100%;
+    border-radius: 0px;
+    
+}
+.shop .shop-content img:hover{
+
+    font-size: 500px;
+
+}
